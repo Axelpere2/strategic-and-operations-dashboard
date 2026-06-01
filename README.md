@@ -2,6 +2,10 @@
 
 **Live Dashboard:** [View the Tableau Dashboard](https://public.tableau.com/app/profile/leonardo.p.rez3098/viz/SLAIncidentAnalysisApril/SLAStrategicDashboard?publish=yes)
 
+## Executive Summary
+
+This project analyzes 180 synthetic IT incident records for April 2026 to identify SLA breach patterns, operational risk areas, and improvement actions. The dashboard found a 29% SLA breach rate, with the highest risk concentrated in Application, Service Desk, and Network teams. Recommendations focus on escalation rules, Problem Management, vendor follow-up, and knowledge base improvement.
+
 ## Project Overview
 
 This project presents a strategic and operational Tableau dashboard designed to monitor incident performance, SLA compliance, support team performance, priority distribution, and recurring SLA breach reasons.
