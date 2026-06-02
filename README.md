@@ -6,7 +6,7 @@ This project analyzes 180 synthetic IT incident records for April 2026 to identi
 
 ## Dashboard Preview
 
-![SLA IT Strategic Dashboard](Images/SLA%20IT%20Strategic%20Dashboard.png)
+![SLA IT Strategic Dashboard](images/SLA%20IT%20Strategic%20Dashboard.png)
 
 **Live Dashboard:** [View the Tableau Dashboard](https://public.tableau.com/app/profile/leonardo.p.rez3098/viz/SLAIncidentAnalysisApril/SLAStrategicDashboard?publish=yes)
 
@@ -53,6 +53,7 @@ The objective of this dashboard is to help IT Operations stakeholders answer fiv
 - SLA analysis
 - KPI reporting
 - Executive communication
+- SQL
 
 ## Key Metrics
 
@@ -89,6 +90,22 @@ Identification of recurring reasons contributing to SLA breaches.
 
 Operational table for reviewing individual incidents and supporting deeper analysis.
 
+## 6. SQL Analysis
+
+This project also includes SQL queries to validate SLA KPIs and identify operational risk areas.
+
+The SQL analysis covers:
+
+- Executive SLA KPI summary
+- SLA breach rate by support team
+- SLA breach rate by priority
+- Top SLA breach reasons
+- Escalation impact on SLA performance
+- Highest-risk breached tickets
+- Problem Management candidates
+
+[View SQL SLA breach analysis](SQL/sla_breach_analysis.sql)
+
 ## Key Insights
 
 Based on the sample incident data:
@@ -120,10 +137,14 @@ strategic-it-operations-dashboard/
 │   └── sla_incident_data_tableau_expanded_180_rows.csv
 │
 ├── images/
-│   └── README.md
+│   └── SLA IT Strategic Dashboard.png
 │
-└── presentation/
-    └── README.md
+├── presentation/
+│   └── Executive presentation files
+│
+└── SQL/
+    ├── README.md
+    └── sla_breach_analysis.sql
 ```
 
 ## Presentation
