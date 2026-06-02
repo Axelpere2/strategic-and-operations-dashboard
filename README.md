@@ -116,6 +116,47 @@ Based on the sample incident data:
 - Ticket-level visibility helps managers follow up on specific incidents.
 - Executive dashboards can help leadership make faster and more data-driven decisions.
 
+## Root Cause Analysis Summary
+
+Based on the SLA breach analysis, the main operational issues appear to be related to change-related failures, vendor dependencies, and knowledge gaps within support teams.
+
+### Problem Statement
+
+During the analyzed period, 52 out of 180 incidents breached SLA, representing a 29% SLA breach rate. The highest SLA risk was concentrated in the Application, Service Desk, and Network teams.
+
+### Main Root Causes Identified
+
+| Root Cause | Evidence from Dashboard | Operational Impact |
+|---|---|---|
+| Change-related issues | High number of SLA breaches linked to change activities | Increased incident resolution time and higher risk of service disruption |
+| Vendor dependencies | Breaches caused by delays from external providers | Limited internal control over resolution time |
+| Knowledge gaps | Repeated issues requiring escalation or reassignment | Longer handling time and inconsistent resolution quality |
+
+### 5 Whys Example
+
+**Issue:** SLA breaches are high in specific support teams.
+
+| Why? | Answer |
+|---|---|
+| Why did incidents breach SLA? | Tickets took longer than the SLA target to resolve. |
+| Why did resolution take longer? | Some tickets required escalation, reassignment, or vendor support. |
+| Why were escalations or reassignments needed? | First-level teams did not always have the knowledge or access to resolve the issue. |
+| Why was knowledge or access missing? | Documentation, training, or ownership rules were not fully effective. |
+| Why was this not detected earlier? | SLA risk monitoring was reactive instead of proactive. |
+
+### Recommended Corrective Actions
+
+| Action | Owner | Expected Benefit |
+|---|---|---|
+| Review change-related incident patterns | Change Manager / Problem Manager | Reduce incidents caused by failed or risky changes |
+| Improve knowledge base articles for recurring incidents | Service Desk Lead | Reduce escalation and reassignment rates |
+| Define vendor escalation rules | Service Delivery Manager | Reduce delays caused by external dependencies |
+| Create weekly SLA risk review | Incident Manager / IT Operations Analyst | Detect SLA risks before breach occurs |
+
+### RCA Conclusion
+
+The SLA breach rate appears to be driven mainly by process, knowledge, and dependency issues rather than isolated ticket failures. A structured Problem Management review should be performed for recurring breach reasons, especially in the Application, Service Desk, and Network areas.
+
 ## Recommendations
 
 1. Review support teams with the highest SLA breach contribution.
